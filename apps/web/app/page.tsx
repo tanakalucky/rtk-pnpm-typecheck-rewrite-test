@@ -2,6 +2,14 @@ import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
 
+const test1: string = 1;
+const test2: string = 1;
+const test3: string = 1;
+const test4: string = 1;
+const test5: string = 1;
+const test6: string = 1;
+const test7: string = 1;
+
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
   srcDark: string;
